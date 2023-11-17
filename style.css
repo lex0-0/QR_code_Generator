@@ -59,3 +59,24 @@ border-radius: 10px;
     margin: 10px auto;
     border: 1px solid #d1d1d1;
 }
+.error{
+    animation: shake 0.1s linear 7;
+}
+@keyframes shake{
+    0%{
+        transform: translatex(0);
+    }
+    25%{
+        transform: translatex(-7px);
+    }
+    50%{
+        transform: translatex(0);
+    }
+    75%{
+        transform: translatex(7px);
+    }
+    100%{
+        transform: translatex(0);
+    }
+  
+}
